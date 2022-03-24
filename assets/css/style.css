@@ -1,10 +1,4 @@
 /*==================================
-* Author        : "ThemeSine"
-* Template Name : Zombiz
-* Version       : 1.0
-==================================== */
-
-/*==================================
 
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
@@ -830,7 +824,7 @@ a:focus.service-btn{
 	position:absolute;
 	height:100%;
 	width:100%;
-	background:grey;
+	background:#0000ffff;
 	display:flex;
 	align-items:center;
 	text-transform: capitalize;
@@ -1032,13 +1026,12 @@ a:active.learn-btn{
 	opacity: 1;
 }/*team-box-inner*/
 .single-team-box:hover .team-box-inner{
-	height: 50px;
+	height: 100px;
 }
-.single-team-box:hover{
-	box-shadow: 5px 5px 30px 5px rgba(65,62,126,.2);
-}
-.single-team-box.single-team-card:hover{
-	box-shadow: 0px 5px 35px 5px rgba(6,5,49,.2);
+.single-team-box:hover .team-box-inner p{
+	font-size: 27px;
+	color: blue;
+	text-align: center;
 }
 
 /*-------------------------------------
